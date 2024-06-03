@@ -7,7 +7,7 @@ import Home from './pages/home/Home';
 
 function App() {
   const { authUser } = useAuthContext();
-
+  
   return (
     <div className="p-4 h-screen flex justify-center items-center">
       <Routes>

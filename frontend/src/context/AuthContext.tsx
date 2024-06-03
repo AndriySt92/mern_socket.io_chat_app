@@ -1,8 +1,9 @@
 import { createContext, useContext, useState } from "react";
+import { IUser } from "../interfaces/userInterfaces";
 
 interface IAuthContext {
     authUser: IUser | null
-    setAuthUser: (user: IUser) => void
+    setAuthUser: (user: IUser | null) => void
 }
 interface Props {
 	children: React.ReactNode;
