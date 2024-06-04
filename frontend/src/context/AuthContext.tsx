@@ -5,6 +5,7 @@ interface IAuthContext {
     authUser: IUser | null
     setAuthUser: (user: IUser | null) => void
 }
+
 interface Props {
 	children: React.ReactNode;
 };
