@@ -1,7 +1,6 @@
 import { createContext, useState, useEffect, useContext } from 'react'
 import { useAuthContext } from './AuthContext'
 import io, { Socket } from 'socket.io-client'
-import { IUser } from '../interfaces/userInterfaces'
 
 interface ISocketContext {
   socket: Socket
